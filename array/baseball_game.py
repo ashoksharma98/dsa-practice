@@ -66,3 +66,5 @@ class Solution:
                     res.append(res[-2]+res[-1])
 
         return sum(res)
+    
+# TC: O(n)

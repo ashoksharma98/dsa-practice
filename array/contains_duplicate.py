@@ -42,3 +42,5 @@ class Solution:
             if v > 1:
                 return True
         return False
+    
+# TC: O(n) + O(n) => O(2n) -> O(n)

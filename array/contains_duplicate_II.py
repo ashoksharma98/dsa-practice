@@ -33,3 +33,5 @@ class Solution:
                         if abs(initial - v[a]) <= k:
                             return True
         return False
+
+# TC: O(n) + O(n) * O(n) * O(n) = O(2n^3) -> O(n^3) # wrong; O(n^2) right;
